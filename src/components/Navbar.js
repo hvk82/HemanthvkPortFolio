@@ -2,6 +2,7 @@ import { ArrowDownIcon } from "@heroicons/react/solid";
 import React from "react";
 // import { FiTwitter } from "@heroicons/react/outline";
 import { CiTwitter } from "react-icons/ci";
+import { BsGithub } from "react-icons/bs";
 
 export default function Navbar() {
   return (
@@ -24,6 +25,13 @@ export default function Navbar() {
             Skills
           </a>
         </nav>
+        <a
+          href="https://github.com/hvk82"
+          target="_blank"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        >
+          <BsGithub className="w-5 h-5 ml-1" />
+        </a>
         <a
           href="https://twitter.com/HemanthVk11"
           target="_blank"
