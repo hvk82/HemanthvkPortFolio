@@ -85,3 +85,4 @@ export const skills = [
   "Jenkins",
   "DSA",
 ];
+export const twitterIcon = [{ image: "./twitter.svg" }];
