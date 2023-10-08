@@ -62,9 +62,19 @@ export const projects = [
   },
 ];
 
+export const JSPROJECT = [
+  {
+    title: "Sketch Board",
+    subtitle: "Javascript,Express,Socket.io",
+    description:
+      "This app allows you to connect with others and perform sketching collaborating with basic functionalites like drawing rough ideas, uploading image, writing sticky notes and basic undo and redo functionality. It uses socketio,javascript,some basic html and css to do realtime sketching which syncs the changes wherever the URL is getting accessed",
+    image: "./project-9.png",
+    link: "https://my-sketchboard-c46e58e3543d.herokuapp.com/",
+  },
+];
+
 export const skills = [
   "JavaScript",
-  "Angular",
   "SpringBoot",
   "React",
   "Java",
@@ -73,4 +83,5 @@ export const skills = [
   "Bootstrap",
   "Plsql",
   "Jenkins",
+  "DSA",
 ];
