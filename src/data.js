@@ -74,15 +74,15 @@ export const JSPROJECT = [
 ];
 
 export const skills = [
+  "Java",
+  "DSA",
   "JavaScript",
   "SpringBoot",
   "React",
-  "Java",
   "Node",
   "Styled Components",
   "Bootstrap",
   "Plsql",
   "Jenkins",
-  "DSA",
 ];
 export const twitterIcon = [{ image: "./twitter.svg" }];
